@@ -5,6 +5,7 @@
 #include<stdlib.h>
 #include<ctype.h>
 #include<windows.h>
+//header files added
 
 using namespace std;
 
@@ -13,7 +14,7 @@ int choice, nul[26], key, pos, ret=0, no=0;
 void introtwo(void);
 
 ////////////////////////////////////////////////////////////////////////////////
-
+//to read a file
 void read(void)
 {
 	cout<<"\nEnter name of file(with extension): ";
